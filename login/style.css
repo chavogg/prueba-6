@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background: black;
+    background-image: url("https://e00-expansion.uecdn.es/blogs/mcgufilms/imagenes_posts/2019/01/04/197198.jpg");
+}
+
+.icon-1 {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 40%;
+}
+
+.container {
+    background: black;
+    color: white;
+    width: 250px;
+    padding: 40px;
+    border-radius: 35px;
+    margin-top: 10%;
+    margin: auto;
+    display: inline-block;
+    margin-left: 35%;
+    zoom: 130%;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .form {
+        zoom: 50;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    color: black;
+}   
+input {
+    background: grey;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    color: white;
+    margin: 25px 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+input:hover {
+    background: white;
+    color: black;
+}
+
+.iniciar {
+    margin-left: 0;
+    margin-bottom: -40px;
+    background: red;
+    color: white;
+    margin-top: -9px;
+    width: 100px;
+    margin-left: 30%;
+}
+
+.iniciar:hover {
+    background: white;
+    color: black;
+}
+
+.name-box {
+    margin-bottom: -20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.powered {
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: auto;
+}

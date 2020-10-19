@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    zoom: 100%;
+    background: none;
+    background-image: url("https://e00-expansion.uecdn.es/blogs/mcgufilms/imagenes_posts/2019/01/04/197198.jpg");
+}
+@media (max-width: 600px) {
+    body {
+        zoom: 3;
+    }
+}  
+
+.icon-1 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 6px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 55px;
+    font-size: 60px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.box-titul {
+    background: rgb(228, 228, 228);
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .box-titul {
+        zoom: 50;
+    }
+}  
+
+.daclick-parainiciarsesion {
+    background: rgb(228, 228, 228);
+    margin-top: 100px;
+    margin-left: 37%;
+    width: 300px;
+    padding: 30px;
+    color: black;
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    .daclick-parainiciarsesion {
+        width: 200px;
+    }
+}  
+
+
+.boton {
+    color: red;
+    text-align: center;
+    margin: 50px 40%;
+}
+
+.boton:hover {
+    color: black;
+}
+
+.aclaracion {
+    margin-left: 39%;
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 4px;
+    color: white;
+}
+
+.aqui {
+    color: white;
+}
+.aqui:hover {
+    color: red;
+}
